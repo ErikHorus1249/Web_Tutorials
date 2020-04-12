@@ -1,0 +1,11 @@
+
+// vùng chọn thứ cấp 
+#Menu ul li {
+	background: red;
+	color : white;
+}
+// vùng chọn thứ cấp liền nhau
+#Menu ul ul > p {
+	background: white;
+	color: black;
+}

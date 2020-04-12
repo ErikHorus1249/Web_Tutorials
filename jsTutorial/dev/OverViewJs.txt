@@ -1,0 +1,5 @@
+Sử dụng Nodejs để chạy js trên server
+Dùng React native để làm ứng dụng mobile
+ElectronJs để làm Desktop App
+
+

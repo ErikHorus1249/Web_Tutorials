@@ -1,0 +1,14 @@
+h1 {
+	font-weight: bold;
+	color : green;
+}
+
+#tieude {
+	font-weight: bold;
+	color : black;
+}
+
+.tieude {
+	font-weight: bold;
+	color : red;
+}

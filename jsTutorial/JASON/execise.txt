@@ -1,0 +1,3 @@
+Nhap 1 vao : hien thi tat ca cac sinh vien trong danh sach
+nhap 2 vao cho phep nhap thong tin sinh vien
+Nhap 3 : luu va exit

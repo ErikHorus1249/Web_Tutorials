@@ -1,0 +1,8 @@
+.trangTri {
+	text-align: justify;
+	text-decoration: underline;
+	text-indent: 20px;
+	text-shadow: #5396FF 2px 3px 3px, blue 2px 3px 2px;
+	text-transform: capitalize;
+	color: black;
+}
