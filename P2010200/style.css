@@ -1,11 +1,15 @@
-body {
+/* body {
     background: url(./img/luxury.jpg) no-repeat center;
     background-size: cover;
     margin: 0 auto;
     margin-top: -40px;
     padding: 0;
     font-family: sans-serif;
-    /* background-color: #34495e; */
+} */
+
+body {
+    background: url(./img/sleaves.jpg);
+    background-size: cover;
 }
 
 .box .container {
@@ -23,7 +27,6 @@ body {
 .box .container h1 {
     display: inline;
     color: white;
-    /* text-transform: uppercase; */
     font-weight: 500;
 }
 
@@ -45,18 +48,18 @@ body {
     display:block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2px solid#FFCA40;
     padding: 14px 10px;
     width: 200px;
     outline: none;
     color: white;
     border-radius: 24px;
-    transition: 0.25s;
+    transition: 0.5s;
 }
 
 .box input[type="text"]:focus, .box input[type="password"]:focus {
     width: 280px;
-    border-color: #2cd472;
+    border-color:#972fe7;
 }
 
 .box input[type="submit"] {
@@ -65,7 +68,7 @@ body {
     display:block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2cd472;
+    border: 2px solid#7C14CC;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -75,5 +78,5 @@ body {
 }
 
 .box input[type="submit"]:hover {
-    background: #2cd472;
+    background: #7C14CC;
 }
