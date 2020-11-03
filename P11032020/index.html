@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pepsi website</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <!-- <a href="http://"><img src="img/logo.png"  alt="" class="logo"></a> -->
+            <a href="index.html"><img src="img/nvidia.jpg"  alt="" class="logo"></a>
+            <ul>
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">Product</a></li>
+                <li><a href="http://">What's New</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>Nvidia console</span></h2>
+                <p>It is a long established fact that a reader will be
+                distracted by the readable content of a page when looking
+                at its layout. The point of using Lorem Ipsum is that it has
+                a more-or-less normal distribution of letters, 
+                as opposed to using 'Content here, content here', making it
+                look like readable English</p>
+                <a href="http://">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/l.png" class="nvidia" alt="" srcset="" onclick="back('#9bd6b','img/l.png')">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/img1.png" alt="" onclick="imgSlider('img/img1.png'); changeBgColor('#04BF8A')"></li>
+            <li><img src="img/img2.png" alt="" onclick="imgSlider('img/img2.png'); changeBgColor('#18298C')"></li>
+            <li><img src="img/img3.png" alt="" onclick="imgSlider('img/img3.png'); changeBgColor('#F2CF1D')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="http://"><img src="img/facebook.png" alt="" srcset=""></a></li>
+            <li><a href="http://"><img src="img/instagram .png" alt="" srcset=""></a></li>
+            <li><a href="http://"><img src="img/twitter.png" alt="" srcset=""></a></li>
+        </ul>
+    </section>
+    <script>
+        function imgSlider(anything){
+            document.querySelector('.nvidia').src  = anything
+        }
+        function changeBgColor(color){
+            const sec = document.querySelector('.sec')
+            sec.style.background = color
+        }
+        // function back(color,anything){
+        //     document.querySelector('.imgBox').src  = anything
+        //     const sec = document.querySelector('.sec')
+        //     sec.style.background = color
+        // }
+    </script>
+</body>
+</html>
