@@ -12,7 +12,7 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -75,6 +75,44 @@ header ul li a
     margin-left: 40px;
     text-decoration: none;
     transition: 0.5s;
+}
+
+footer 
+{
+    position: absolute;
+    top: 45.5em;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+}
+
+footer ul
+{
+    position: relative;
+    display: flex;
+    left: 20em;
+}
+
+footer ul li
+{
+    list-style: none;
+}
+
+footer ul li a 
+{
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial;
+    color: rgb(202, 195, 195);
+    /* font-weight: 200; */
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
 .content
