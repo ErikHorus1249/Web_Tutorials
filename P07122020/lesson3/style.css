@@ -1,9 +1,26 @@
-/* p {
-    color: brown;
-} */
-
-/* .first{
+.first {
     color: chartreuse;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-} */
+}
+
+/* dau cham + class id {css content} */
+/* class dung cho nhieu doi tuong */
+#caviar {
+    color: rgb(252, 247, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#class {
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* id dinh danh duy nhat mot doi tuong */
+/* dau thang (#) + id + {css content} */
+/* Id va class la hai thuoc tinh rieng biet cung mot ten co the dat cho class va id duoc  */
+
+/* PHAN BIET : */
+/* - mot id chi dat cho mot element nhat dinh  */
+/* - mot element chi nhan mot id duy nhat */
+
+/* - mot element co the thuoc nhieu class
+- mot class co the chua nhieu element khac nha */
