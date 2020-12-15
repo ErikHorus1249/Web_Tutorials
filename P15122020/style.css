@@ -1,0 +1,11 @@
+.list_cnt{
+    list-style: none;
+    justify-content: center
+    list-style-position: outside;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background: yellow
+}
+
