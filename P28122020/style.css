@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background:black
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
 }
 
 .btn {
-    border: 1px solid #82ccdd;
+    border: 1px solid #19456b;
     background: none;
     padding: 10px 20px;
     font-size: 20px;
@@ -22,7 +23,7 @@ body {
 }
 
 .btn1, .btn2 {
-    color: #82ccdd;
+    color: #19456b;
 }
 
 .btn3, .btn4 {
@@ -34,7 +35,7 @@ body {
 }
 
 .btn3:hover,.btn4:hover{
-    color: #82ccdd;
+    color: #19456b;
 }
 
 .btn::before {
@@ -43,7 +44,7 @@ body {
     left: 0;
     width: 100%;
     height: 0%;
-    background: #82ccdd;
+    background: #19456b;
     z-index: -1;
     transition: 0.8s;
 }

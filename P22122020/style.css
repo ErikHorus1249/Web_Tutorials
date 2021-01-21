@@ -37,9 +37,9 @@ body {
 }
 
 .textbox input {
-    /* border: none; */
+    border: none;
     outline: none;
-    /* background:none ; */
+    background:none ;
     color: white;
     font-size: 10px;
     width: 80px;
