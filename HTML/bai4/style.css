@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+body > div {
+    padding-top: 20%;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    min-width: 100px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity color .2s;
+}
+
+.btn:hover {
+    opacity: 0.6;
+    color: black;
+}
+/* .btn-enable {
+    cursor: pointer;
+} */
+
+.btn + .btn {
+    margin-left: 13px;
+}
+
+.btn-success {
+    background-color: rgb(113, 202, 113);
+}
+
+.btn-warning {
+    background-color: rgb(240, 188, 46);
+}
+
+.btn-error {
+    background-color: rgb(207, 44, 44);
+}
