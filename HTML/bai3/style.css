@@ -1,0 +1,17 @@
+h1 {
+    color: royalblue;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-size: large;
+    margin: 0%;
+    padding-top: 40%;
+    padding-left: 30%;
+}
