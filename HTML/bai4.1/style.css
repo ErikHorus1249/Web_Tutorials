@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+body > div {
+    margin: auto;
+    padding-top: 20%;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    color: white;
+    /* thuoc tinh pading  */
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-left: 23px;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.btn-ok {
+    background-color: rgb(41, 180, 23);
+}
+
+.btn-warning {
+    background-color: rgb(202, 149, 50);
+}
+
+.btn-error {
+    background-color: rgb(196, 60, 7);
+}
