@@ -1,0 +1,21 @@
+:root{
+    /* lop gia  */
+    /* bien   */
+    /* global  */
+    --text-color : #003F63;
+    /* pham vi ap dung */
+}
+
+h1{
+    /* local cuc bo */
+    --text-color : red;
+    color: var(--text-color);
+}
+
+p{
+    color: var(--text-color);
+}
+
+button{
+    color: var(--text-color);
+}

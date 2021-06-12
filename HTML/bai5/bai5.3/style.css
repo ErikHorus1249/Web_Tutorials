@@ -1,0 +1,26 @@
+.box{
+    --size-frame : 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: var(--size-frame);
+    height: var(--size-frame);
+    padding: 10px 10px;
+    margin-left: 196px;
+    margin-bottom: 10px;
+}
+
+.box1{
+    background-color: #003F63;
+}
+
+.box2{
+    background-color: #F2B138;
+}
+
+.box3{
+    background-color: #A1A5A6;
+}
