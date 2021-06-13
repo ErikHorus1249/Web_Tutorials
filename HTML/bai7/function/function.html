@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hàm trong css</title>
+
+    <style>
+        body, html {
+            margin: 0;
+        }
+
+        /* rbb()
+        rgba()
+        url() */
+        /* calc() calculator() */
+        /* attr() */ 
+        
+        .box {
+            --size-box : calc(20% + 50px);
+            /* ham - function : lay gia tri tu bien  */
+            width: var(--size-box);
+            height: var(--size-box);
+            /* rgb() ham lay gia tri mau sac  */
+            background-color: black;
+            background-image: url(https://upload.wikimedia.org/wikipedia/vi/thumb/2/26/Star_Wars_The_Force_Awakens_7.jpg/220px-Star_Wars_The_Force_Awakens_7.jpg);
+            background-size: var(--size-box) auto;
+        }
+
+        .box1 {
+            width: 30px;
+            height: 30px;
+            /* alphalt : 0-1 */
+            background-color: rgba(240, 22, 22, .5);
+        }
+
+        a {
+            color: black;
+            font-size: smaller;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:after {
+            content: "Nhấn vào đây "attr(href)"";
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+    <a href="https://www.youtube.com/video2"></a>
+</body>
+</html>
+
