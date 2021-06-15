@@ -1,0 +1,1 @@
+alert("Bài học số một")
