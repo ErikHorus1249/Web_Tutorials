@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+}
+
+.box {
+    --defaul-size : 40px;
+    width: var(--defaul-size);
+    height: var(--defaul-size);
+    background-color: brown;
+    border: 1px dashed black;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
