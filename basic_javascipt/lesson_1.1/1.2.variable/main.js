@@ -5,27 +5,35 @@
 // cốc nước : tương tự một biến 
 // nước : value
 // var  "nameOfVariable"  =  value 
+// let "nameOfVariable" = value
 var a = 5
+let b = 5
+alert(a+b)
+// dạng số 
+var number1 = 10
+// dạng chuỗi ký tự
+var studentName = "khánh"
+// boolean  : true, false
+var isSunny = true
 
-var fullName = "Bao Anh"
+// built-in 
+var age = prompt("Nhap vao nam sinh cua ban ")
+// ctrl + / 
 
-// quy tac : -tu dau tien viet thuowng , neu co tu thu hai thi viet hoa ky tu dau 
-// ten bien phai la danh tu khai quat tinh chat dac trung cua bien 
+// alert("Tuoi cua ban tinh hiện tại: "+(2021-age))
 
-var carBrand = "Audi"
+// // kiem tra da hoan thanh cap trung học
 
-// du lieu dang chuoi ky tu - String
-var car = "R8"
-// gia tri so nguyen 
-var wheels = 4
-// so thuc  -> number
-var scale = 0.5 
-// dung or sai => boolean 
-var isOwner = false
+// if(age > 14){
+//     alert("Ban da tot nghiep THCS")
+// }else{
+//     alert("Chua hoan thanh cap hoc")
+// }
 
-var a = 2 
-
-// using : hien thi gia tri ra man hinh thong qua popup 
-alert(a+2)
+// if (isSunny == true){
+//     alert("Hom nay troi nangs")
+// }else{
+//     alert("Troi ko co nang")
+// }
 
 
