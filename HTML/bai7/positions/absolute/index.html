@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+
+    <style>
+        body, html {
+            margin: 0;
+        }
+
+        .box {
+            position: relative;
+            width: 100%;
+            height: 100px;
+            background-color: rgb(125, 125, 218);
+        }
+
+        .box1 {
+            /* margin: 50px 50px; */
+            position: relative;
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .child-box {
+            position: absolute;
+            top: 75px;
+            left: 75px;
+            
+            width: 50px;
+            height: 50px;
+            background-color: coral;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- tính chất : so lấy vị trí theo class cha gần nhất có position -->
+    <!-- chỉ có thế thể css vị trí trong class  -->
+    <!-- thì có sử position -->
+    <div class="box">
+        <box class="box1">
+            <div class="child-box"></div>
+        </box>
+    </div>
+</body>
+</html>
