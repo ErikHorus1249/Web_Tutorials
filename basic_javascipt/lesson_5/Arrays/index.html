@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+
+        var students = ["BaoAnh",
+                        "Khanh",
+                        "Son",
+                        "tung",
+                        "Nhung",
+                        ];
+// them vao cuoi dung push()
+        students.push("nam")
+// xoa thang cuoi cung dung pop()
+        students.pop()
+// xoa thang dau tien dung shift()
+        students.shift();
+// dung unshift de them vao dau 
+        var students1 = students.unshift("BaoAnh")
+        // console.log(students)
+
+// tim gia tri bang so thu tu 
+        console.log(students.indexOf("Khanh"))
+
+// xoa hoc sinh theo so thu tu 
+        console.log(students.splice(1, 2))
+        console.log(students)
+    </script>
+</body>
+</html>
