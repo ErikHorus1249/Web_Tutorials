@@ -1,4 +1,5 @@
 // console.log("Node is installed by me")
+console.log("Thong bao")
 
 // Định nghĩa : dùng để tính toán v v, thay thế cho một giá trị khi hàm được gọi đến
 
